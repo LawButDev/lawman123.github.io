@@ -7,9 +7,9 @@
 
 #logoimg
 {
-	
+	margin-left:auto;
 }
-#logoimg img {width:120; height:25;}
+#logoimg img {height:58; class:left;}
 
 #header
 {
