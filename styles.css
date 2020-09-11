@@ -21,10 +21,10 @@
 /* The dropdown container */
 .dropdown {
   float: right;
-  width: 100;
+  /*width: 60;*/
   margin-right:auto;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 10px;/
 }
 
 .dropdown img {height:30; width:30;}
