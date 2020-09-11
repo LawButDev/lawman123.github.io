@@ -71,7 +71,7 @@ img
 .dropdown {
   float: top-right;
   width: 60;
-  display:inline;
+  display:block;
   margin-right:0;
   margin-top:0;
   overflow: hidden;
