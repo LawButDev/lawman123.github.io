@@ -21,7 +21,7 @@
 /* The dropdown container */
 .dropdown {
   float: right;
-  width: 20;
+  width: 30;
   margin-right:auto;
   overflow: hidden;
   border-radius: 10px;
