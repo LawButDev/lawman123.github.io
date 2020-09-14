@@ -69,11 +69,11 @@ img
 
 /* The dropdown container */
 .dropdown {
-  float: top-right;
+  float: right;
   width: 60;
-  display:block;
+  display:inline;
   margin-right:0;
-  margin-top:0;
+  /*margin-top:0;*/
   overflow: hidden;
   border-radius: 10px;
 }
