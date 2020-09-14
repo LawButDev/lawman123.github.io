@@ -69,7 +69,7 @@ img
 
 /* The dropdown container */
 .dropdown {
-  float: right;
+  float: top-right;
   width: 60;
   display:block;
   margin-right:0;
