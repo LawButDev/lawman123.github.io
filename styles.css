@@ -12,7 +12,32 @@
 	text-align:center;
 }
 
+.leftcolumn{float:left;display:inline;overflow:hidden;text-align:center;}
+.centrecolumn{float:center;display:inline;overflow:hidden;text-align:center;}
+.rightcolumn{float:right;display:inline;overflow:hidden;text-align:center;}
+.projectbox
+{
+	width:400px;
+	height:600px;
+	background-color: rgba(225,205,255,1);
+	border-radius: 60px;
+}
+
 #page h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 72px;color: rgba(0,100,125,1)}
+
+#displaypage
+{
+	max-width: 800px;
+	margin: 20px auto;
+	margin-top: 10;
+	padding: 30px;
+	background-color: rgba(225,255,205,0);
+	overflow:hidden;
+	float:center;
+	text-align:center;
+}
+
+#displaypage h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 72px;color: rgba(0,100,125,1)}
 
 #footer
 {
