@@ -68,13 +68,15 @@
 
 #footer
 {
+	top: 60%;
 	bottom: 0%;
 	display:inline;
 	position:absolute;
 	left: 17%;
 	background-color:rgba(200,240,255,0.8);
 	width:1000px;
-	height:210px;
+	height:auto;
+	min-height:210px;
 	overflow:hidden;
 }
 
