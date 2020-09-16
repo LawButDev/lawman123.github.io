@@ -8,19 +8,31 @@
 	padding: 30px;
 	background-color: rgba(225,255,205,0);
 	overflow:hidden;
-	float:center;
 	text-align:center;
 }
 
-.leftcolumn{float:left;display:inline;overflow:hidden;text-align:center;}
-.centrecolumn{float:center;display:inline;overflow:hidden;text-align:center;}
-.rightcolumn{float:right;display:inline;overflow:hidden;text-align:center;}
+.leftcolumn{float:left; left:5%; position:absolute; display:inline;overflow:hidden;text-align:center;}
+.centrecolumn{
+            position: absolute; 
+            /*top: 58%;*/ 
+            left: 43%; 
+            /*margin-top: -100px;*/ 
+            margin-left: -100px; display:inline;overflow:hidden;text-align:center;}
+.rightcolumn{float:right;right:5%;position:absolute;display:inline;overflow:hidden;text-align:center;}
 .projectbox
 {
 	width:400px;
-	height:600px;
-	background-color: rgba(225,205,255,1);
+	height:600px;	
+	background-color: rgba(205,205,225,1);
 	border-radius: 60px;
+	overflow:hidden;
+	border: double 10px white;
+}
+
+.projectbox img
+{
+    max-width: 400px;
+    height: auto;
 }
 
 .projectbox h1
@@ -32,6 +44,9 @@
 {
     width:400px;
 	height:100px;
+	position:absolute;
+	bottom:12px;
+	border-radius:60px;
 	background-color:rgba(105,105,105,0.5);
 }
 
