@@ -68,9 +68,10 @@
 
 #footer
 {
-	margin-bottom: -100;
-	margin-left: auto;
-	margin-right: auto;
+	bottom: 0%;
+	display:inline;
+	position:absolute;
+	left: 17%;
 	background-color:rgba(200,240,255,0.8);
 	width:1000px;
 	height:210px;
