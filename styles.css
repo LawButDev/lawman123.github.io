@@ -76,9 +76,10 @@
 	bottom: 0%;
 	display:inline;
 	position:absolute;
-	left: 17%;
+	left: 15%;
+	right:15%;
 	background-color:rgba(200,240,255,0.8);
-	width:73%;
+	width:75%;
 	overflow:hidden;
 	height: auto;
 }
