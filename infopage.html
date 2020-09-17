@@ -4,12 +4,57 @@
 	<link href = "styles.css" rel = "stylesheet" type = "text/css">
 	<link href="favicon.ico" rel="shortcut icon">
 	<title>LawHub</title>
+	<script LANGUAGE="JavaScript">
+		function autoscroller(seed)
+		{
+			var m1  = "I like to code random things -";
+			var m2  = "Scrolling text seemed fun to add at the time -";
+			var m3  = "it was not once I tried to add it -";
+			var m4  = "please help me they have me captive -";
+
+			
+			
+			var msg=m1+m2+m3+m4
+			var out = " ";
+			var c   = 1;
+
+
+			if (seed > 100) {
+					seed--;
+					var cmd="autoscroller(" + seed + ")";
+					timerTwo=window.setTimeout(cmd,100);
+			}
+			else if (seed <= 100 && seed > 0) {
+					for (c=0 ; c < seed ; c++) {
+							out+=" ";
+					}
+					out+=msg;
+					seed--;
+					var cmd="autoscroller(" + seed + ")";
+						window.status=out;
+					timerTwo=window.setTimeout(cmd,100);
+			}
+			else if (seed <= 0) {
+					if (-seed < msg.length) {
+							out+=msg.substring(-seed,msg.length);
+							seed--;
+							var cmd="autoscroller(" + seed + ")";
+							window.status=out;
+							timerTwo=window.setTimeout(cmd,100);
+					}
+					else {
+							window.status=" ";
+							timerTwo=window.setTimeout("autoscroller(100)",75);
+					}
+			}
+		}
+	</script>
   </head>
 
-  <body>
+  <body onLoad="autoscroller(100)">
 	<div id ="header">	
 		<div id="logoimg">
-			<img src="Law'sHub.png">
+			<img src="Law'sHub.png">	
 		</div>
 		<div class="dropdown">
 			<button class="dropbtn"><img src="dropdown.png">

@@ -3,7 +3,7 @@
 #page
 {
 	max-width: 70%;
-	margin: 5% auto;
+	margin: 15% auto;
 	margin-top: 5%;
 	padding: 1%;
 	background-color: rgba(225,255,205,0);
@@ -53,22 +53,22 @@
 	background-color:rgba(105,105,105,0.5);
 }
 
-#page h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 72px;color: rgba(0,100,125,1)}
+#page h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 270%;color: rgba(0,100,125,1)}
 
 #displaypage
 {
 	width:auto;
 	max-width: 100%;
-	margin: 20px auto;
+	margin: 5% auto;
 	margin-top: 10;
-	padding: 30px;
+	padding: 1%;
 	background-color: rgba(225,255,205,0);
 	overflow:hidden;
 	float:center;
 	text-align:center;
 }
 
-#displaypage h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 72px;color: rgba(0,100,125,1)}
+#displaypage h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 370%;color: rgba(0,100,125,1)}
 
 .footer
 {
@@ -91,7 +91,7 @@
 	font-size: 24px;
 	color: rgba(0,0,0,1);
 	text-align: left;
-	padding:10px
+	padding:10px;
 	height:auto;
 	min-height:210px;
 }
@@ -103,9 +103,9 @@
 	display:inline;
 	overflow:hidden;
 	text-align:left;
-	width:300px;
+	width:10%;
 }
-#logoimg img {height:58px;}
+#logoimg img {height:9%;width:auto;}
 
 #header
 {
@@ -116,14 +116,14 @@
 /* The dropdown container */
 .dropdown {
   float: right;
-  width: 60;
+  width: 4%;
   display:inline;
   margin-right:0;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.dropdown img {height:30; width:30;}
+.dropdown img {height:100%; width:100%;}
 
 .dropdown .dropbtn {
   font-size: 16px;
@@ -145,7 +145,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  right:5px;
+  right:1%;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
