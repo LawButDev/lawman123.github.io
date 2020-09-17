@@ -78,9 +78,9 @@
 	position:absolute;
 	left: 17%;
 	background-color:rgba(200,240,255,0.8);
-	width:1000px;
+	width:70%;
 	overflow:hidden;
-	height: 210px auto;
+	height: auto;
 }
 
 #displaypage .footer
